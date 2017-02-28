@@ -1,0 +1,25 @@
+{
+  "name": "slack-bot-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gerrit van Huyssteen",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/client": "^3.8.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/slack-node": "^0.1.1",
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.4",
+    "mocha": "^3.2.0",
+    "ts-node": "^2.1.0",
+    "typescript": "^2.1.6"
+  }
+}
